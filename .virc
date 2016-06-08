@@ -1,0 +1,2 @@
+map <C-c> :'<,'>w !cat > /dev/clipboard<cr><cr>
+map <C-v> :r !cat /dev/clipboard<cr>
