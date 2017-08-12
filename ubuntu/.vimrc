@@ -38,15 +38,16 @@ set directory=~/vimtmp,.
 
 :imap jj <Esc>
 
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+" mapping to <nop> means the key won't do anything
+map <up> :bp<CR>
+map <down> :bn<CR>
+map <left> :bp<CR>
+map <right> :bn<CR>
 
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
+imap <up> :bp<CR>
+imap <down> :bn<CR>
+imap <left> :bp<CR>
+imap <right> :bn<CR>
 
 set clipboard=unnamedplus
 
