@@ -52,3 +52,5 @@ imap <right> :bn<CR>
 set clipboard=unnamedplus
 
 set mouse=a
+
+set cursorline
