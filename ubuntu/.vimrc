@@ -24,6 +24,7 @@ set softtabstop=2
 
 " Prettyfulness
 set nu
+set relativenumber
 syntax on
 set hlsearch
 filetype on
