@@ -1,0 +1,52 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.fontSize": 11,
+    "files.autoSave": "onWindowChange",
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["<up>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<down>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<left>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<right>"],
+            "after": ["<nop>"]
+        }
+    ],
+     "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<up>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<down>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<left>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<right>"],
+            "after": ["<nop>"]
+        }
+    ],
+    "vim.disableAnnoyingNeovimMessage": true
+}
