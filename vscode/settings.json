@@ -1,4 +1,7 @@
 // Place your settings in this file to overwrite the default settings
+// Default positions:
+// Linux: $HOME/.config/Code/User/settings.json
+// Windows: %APPDATA%\Code\User\settings.json
 {
     "editor.wordWrap": "on",
     "editor.minimap.enabled": false,
