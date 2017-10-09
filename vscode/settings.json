@@ -8,6 +8,7 @@
     "editor.tabSize": 2,
     "editor.fontSize": 11,
     "files.autoSave": "onWindowChange",
+    "explorer.sortOrder": "type",
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
     "vim.hlsearch": true,
