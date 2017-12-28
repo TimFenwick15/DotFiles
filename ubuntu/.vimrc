@@ -55,3 +55,6 @@ set clipboard=unnamedplus
 set mouse=a
 
 set cursorline
+
+match ErrorMsg '\%>120v.\+'
+
