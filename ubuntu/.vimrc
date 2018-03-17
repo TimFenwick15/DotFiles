@@ -4,7 +4,9 @@ set background=dark
 " colorscheme solarized
 
 " Autoload NERDTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
+map <C-n> :NERDTree<CR>
+let g:NERDTreeQuitOnOpen = 1
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
@@ -38,17 +40,13 @@ set backupdir=~/vimtmp,.
 set directory=~/vimtmp,.
 
 :imap jj <Esc>
+:imap kk <Esc>
 
 " mapping to <nop> means the key won't do anything
 map <up> :bp<CR>
 map <down> :bn<CR>
 map <left> :bp<CR>
 map <right> :bn<CR>
-
-imap <up> :bp<CR>
-imap <down> :bn<CR>
-imap <left> :bp<CR>
-imap <right> :bn<CR>
 
 set clipboard=unnamedplus
 
