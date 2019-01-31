@@ -36,9 +36,12 @@ filetype indent on
 " Terminal
 set ff=unix
 
+" Clearing vim temporary files
 set backupdir=~/vimtmp,.
 set directory=~/vimtmp,.
+set noundofile
 
+" Shortcuts
 :imap jj <Esc>
 :imap kk <Esc>
 
@@ -48,6 +51,7 @@ map <down> :bn<CR>
 map <left> :bp<CR>
 map <right> :bn<CR>
 
+" Other
 set clipboard=unnamedplus
 
 set mouse=a
